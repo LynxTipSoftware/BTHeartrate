@@ -11,6 +11,6 @@ import RxSwift
 
 protocol BluetoothManagerProtocol {
     
-    var bluetoothState: Variable<CBCentralManagerState> { get }
+    var bluetoothState: Variable<BluetoothState> { get }
     
 }

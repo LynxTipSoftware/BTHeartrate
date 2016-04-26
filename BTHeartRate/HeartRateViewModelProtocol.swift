@@ -11,6 +11,6 @@ import RxSwift
 
 protocol HeartRateViewModelProtocol {
     
-    var currentStatus : Observable<ApplicationState> { get }
+    var bluetoothIndication : Variable<BluetoothIndication> { get }
     
 }
