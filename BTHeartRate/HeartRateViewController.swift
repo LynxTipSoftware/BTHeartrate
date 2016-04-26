@@ -15,7 +15,7 @@ class HeartRateViewController : UIViewController {
 
     @IBOutlet var buttonBluetooth: UIButton!
     
-    var viewModel :HeartRateViewModelProtocol?
+    var viewModel: HeartRateViewModelProtocol?
     
     let disposeBag = DisposeBag()
     

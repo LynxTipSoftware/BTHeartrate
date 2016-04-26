@@ -15,9 +15,7 @@
 		F95A73D11CC439AA000F5087 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95A73CE1CC439AA000F5087 /* RxBlocking.framework */; };
 		F95A73D21CC439AA000F5087 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95A73CF1CC439AA000F5087 /* RxCocoa.framework */; };
 		F95A73D31CC439AA000F5087 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95A73D01CC439AA000F5087 /* RxSwift.framework */; };
-		F9B93F9C1CC51509001F1AA2 /* DeviceLocatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B93F9B1CC51509001F1AA2 /* DeviceLocatorProtocol.swift */; };
 		F9B93F9E1CC5156F001F1AA2 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B93F9D1CC5156F001F1AA2 /* Enums.swift */; };
-		F9B93FA01CC515EA001F1AA2 /* DeviceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B93F9F1CC515EA001F1AA2 /* DeviceLocator.swift */; };
 		F9B93FA31CC516AB001F1AA2 /* BluetoothManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B93FA21CC516AB001F1AA2 /* BluetoothManagerProtocol.swift */; };
 		F9B93FA51CC516CF001F1AA2 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B93FA41CC516CF001F1AA2 /* BluetoothManager.swift */; };
 		F9B93FA71CC51743001F1AA2 /* HeartRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B93FA61CC51743001F1AA2 /* HeartRateViewController.swift */; };
@@ -49,9 +47,7 @@
 		F95A73CE1CC439AA000F5087 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		F95A73CF1CC439AA000F5087 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		F95A73D01CC439AA000F5087 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		F9B93F9B1CC51509001F1AA2 /* DeviceLocatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceLocatorProtocol.swift; sourceTree = "<group>"; };
 		F9B93F9D1CC5156F001F1AA2 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		F9B93F9F1CC515EA001F1AA2 /* DeviceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceLocator.swift; sourceTree = "<group>"; };
 		F9B93FA21CC516AB001F1AA2 /* BluetoothManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManagerProtocol.swift; sourceTree = "<group>"; };
 		F9B93FA41CC516CF001F1AA2 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 		F9B93FA61CC51743001F1AA2 /* HeartRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateViewController.swift; sourceTree = "<group>"; };
@@ -176,7 +172,6 @@
 		F9B93F991CC51466001F1AA2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F9B93F9F1CC515EA001F1AA2 /* DeviceLocator.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -184,7 +179,6 @@
 		F9B93F9A1CC51486001F1AA2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F9B93F9B1CC51509001F1AA2 /* DeviceLocatorProtocol.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -331,9 +325,7 @@
 				F9B93FAA1CC5188A001F1AA2 /* HeartRateViewModelProtocol.swift in Sources */,
 				F9B93FAC1CC51899001F1AA2 /* HeartRateViewModel.swift in Sources */,
 				F9B93FA31CC516AB001F1AA2 /* BluetoothManagerProtocol.swift in Sources */,
-				F9B93FA01CC515EA001F1AA2 /* DeviceLocator.swift in Sources */,
 				F9B93FA51CC516CF001F1AA2 /* BluetoothManager.swift in Sources */,
-				F9B93F9C1CC51509001F1AA2 /* DeviceLocatorProtocol.swift in Sources */,
 				F9B93F9E1CC5156F001F1AA2 /* Enums.swift in Sources */,
 				F95A73AC1CC4371A000F5087 /* AppDelegate.swift in Sources */,
 				F9B93FA71CC51743001F1AA2 /* HeartRateViewController.swift in Sources */,

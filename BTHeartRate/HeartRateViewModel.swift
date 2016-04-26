@@ -14,10 +14,10 @@ class HeartRateViewModel : HeartRateViewModelProtocol {
     
     private(set) var bluetoothIndication = Variable(BluetoothIndication.Neutral)
     
-    private var bluetoothManager : BluetoothManagerProtocol
+    private var bluetoothManager: BluetoothManagerProtocol
     private let disposeBag = DisposeBag()
     
-    init (bluetoothManager : BluetoothManagerProtocol) {
+    init (bluetoothManager: BluetoothManagerProtocol) {
                 
         self.bluetoothManager = bluetoothManager
         
