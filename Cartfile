@@ -1,1 +1,2 @@
 github "ReactiveX/RxSwift" ~> 2.0
+github "thii/FontAwesome.swift" == 0.7.0
